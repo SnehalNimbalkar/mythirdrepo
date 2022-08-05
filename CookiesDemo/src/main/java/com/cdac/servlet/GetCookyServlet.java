@@ -22,6 +22,7 @@ HttpServletResponse response) throws ServletException, IOException
 		Cookie[] arr = request.getCookies();
 		
 		String uname = "" , site = "";
+		//ABCDEFGHI
 		
 		for(Cookie c : arr) {
 			if(c.getName().equals("namecooky"))
