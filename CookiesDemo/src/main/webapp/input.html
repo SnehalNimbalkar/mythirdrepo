@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cookies Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<form action="setcooky" method="get" class="form">
+			<div class="form-group">
+				<label class="control-label">Enter Your Name</label>
+				<input type="text" name="txtName" placeholder="Enter Name"
+				class="form-control"> 
+			</div>
+			
+			<div class="radio">
+				<label class="control-label">
+					<input type="radio" name="radSite" value="f"> FACEBOOK
+				</label> 
+			</div>
+			<div class="radio">
+				<label class="control-label">
+					<input type="radio" name="radSite" value="i"> INSTAGRAM
+				</label> 
+			</div>
+			<div class="radio">
+				<label class="control-label">
+					<input type="radio" name="radSite" value="t" 
+					checked> TWITTER
+				</label> 
+			</div>
+			
+			<input type="submit" class="btn btn-block btn-info"
+			value="CLICK TO SEND DATA" name="btnSend">
+		</form>
+	</div>
+</body>
+</html>
